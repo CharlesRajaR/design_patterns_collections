@@ -1,9 +1,6 @@
-import Efficient.Factory;
-import Efficient.Vehicle;
-import Traditional.CarFactory;
+package Creational_Design_Patterns.FactoryPattern.src;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Main {
@@ -35,11 +32,6 @@ public class Main {
             String name = br.readLine();
             if(name.equals("exit")){
                 System.exit(0);
-            }
-            else{
-                Vehicle vehicle = Factory.getVehicle(name);
-                vehicle.start();
-                vehicle.stop();
             }
         }
 

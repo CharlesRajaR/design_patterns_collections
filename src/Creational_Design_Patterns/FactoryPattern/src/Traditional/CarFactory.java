@@ -1,4 +1,4 @@
-package Traditional;
+package Creational_Design_Patterns.FactoryPattern.src.Traditional;
 
 public class CarFactory {
     public abstract class Vehicle{
