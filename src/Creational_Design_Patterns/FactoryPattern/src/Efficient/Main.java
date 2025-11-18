@@ -1,5 +1,10 @@
 package Creational_Design_Patterns.FactoryPattern.src.Efficient;
 
+
+//The Factory Method pattern defines an interface for creating an object, but delegates the instantiation logic to
+//subclasses. It allows a superclass (Creator) to defer the choice of the concrete class
+//to be created (Product) to its subclasses. This decouples the client code from the specific product class it uses.
+
 public class Main {
     public static void main(String[] args) {
         Logistics logistics;
